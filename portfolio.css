@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body{
+    margin:0;
+    padding: 0;
+
+}
+.div-Background{
+    background-image:linear-gradient(to left,rgb(34, 3, 205),rgb(25, 184, 216) 80%);
+    height: 100vh;
+}
+.bg-dark{
+    background-image:linear-gradient(to left,rgb(45, 63, 204),rgb(67, 176, 249)  80%);
+
+}
+html{
+    scroll-behavior: smooth;
+}
+ul li:hover{
+    opacity: 0.5;
+}
+.text-Decoration{
+    text-decoration: underline;
+}
+.navbar-brand{
+    color: white;
+    font-size:x-large;
+    font-family: 'Kanit', sans-serif;
+}
+.navbar-brand:hover{
+    color: gray;
+}
+nav li{
+    padding-bottom: 3px;
+}
+li::after{
+    content: '';
+    display: block;
+    height: 1px;
+    transition:all 0.2s ease;
+}
+li:hover::after{
+    width: 100%;
+    background-color: rgb(170, 166, 166);
+}
+.myimg:hover{
+    box-shadow: 0 0 30px black;
+    transform: scale(1.2);
+}
+.card-Skill:hover{
+    box-shadow: 0 2px 2px 2px rgb(234, 58, 4);
+    transform: scale(1.1);
+    background-color: rgb(178, 189, 194)  ;
+}
+.nav-item{
+    font-size: 18px;
+    color: white;
+}
+.my-Name{
+    font-family: 'Lugrasimo', cursive;
+}
+.my-Name::first-letter{
+    color: rgb(239, 15, 15);
+}
+.card-title{
+ font-size: 50px;
+ font-family: 'Ysabeau SC', sans-serif;
+}
+.card-title:first-letter{
+    color: rgb(255, 55, 0);
+}
+.card-Icon{
+    height: 35px;
+    background-color: rgb(20, 18, 18);
+}
+.myimg{
+    max-width: 220px;
+    height: 210px;
+    width: 200px;
+    border-radius: 50%;
+    animation: none ;
+}
+.card-Skill{
+    width: 250px;
+    box-shadow: 0 2px  4px rgb(234, 58, 4);
+
+}
+@media all and (min-width:320px){
+    .card-Skill{
+        width: 250px;
+    }
+}
+@media all and (min-width:768px){
+    .card-Skill{
+        width: 200px;
+    }
+}
+.skill-Img{
+    height: 50px;
+    width: 50px;
+}
+.certificate-Img{
+    height: 200px;
+    width: 280px;
+}
+figcaption{
+    background-color: rgb(62, 84, 92);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+.certificate-Img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px 3px rgb(57, 90, 104);
+}
+.card-Foot{
+    background-color: rgb(142, 138, 138);
+}
+.fa-brands{
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 20px;
+    color:gray ;
+}
+hr{
+    color: white;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    border: 3px solid #fe444425;
+    border-top: 3px solid red;
+}
+.home-text{
+    max-width: 500px;
+}  
